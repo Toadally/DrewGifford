@@ -1,123 +1,71 @@
-----------------------------------------------------------------------------------------------------
-eXtplorer 2.1 - README
-----------------------------------------------------------------------------------------------------
+1- What is this?
+	* This is a Joomla! installation/upgrade package to version 3.x
+	* Joomla! Official site: http://www.joomla.org
+	* Joomla 3.1 version history - http://docs.joomla.org/Joomla_3.1_version_history
+	* Detailed changes in the Changelog: https://github.com/joomla/joomla-cms/commits/master
 
-Requirements:
--------------------
-* PHP > 5.2
+2- What is Joomla?
+	* Joomla is a Content Management System (CMS) which enables you to build Web sites and powerful online applications.
+	* It's a free and OpenSource software, distributed under the GNU General Public License version 2 or later
+	* This is a simple and powerful web server application and it requires a server with PHP and either MySQL, PostgreSQL, or SQL Server to run it.
+	More details here: http://www.joomla.org/about-joomla.html
 
-Supported Browsers:
--------------------
-* Internet Explorer >= 8.0
-* Firefox >= 2
-* Safari >= 4
-* Google Chrome/Iron >= 3
-* Konqueror (KDE > 4.0)
-* Opera 10.5+
+3- Is Joomla for you?
+	* Joomla is the right solution for any content web project: http://docs.joomla.org/Joomla_Is_it_for_me%3F
+	* See Features - http://www.joomla.org/core-features.html
+	* Try out our online demo: http://demo.joomla.org/
 
-Opera and Konqueror don't allow custom Context Menus. Use Double Click on a record in the grid instead.
+4- How to find a Joomla! translation?
+	* Repository of accredited language packs: http://community.joomla.org/translations.html
+	* Directory of non-accredited language packs (see above for accredited): http://extensions.joomla.org/extensions/languages/translations-for-joomla
 
-Installation as Standalone Script
--------------------
-	1. Unpack the Archive (where this README.txt is contained) to a local directory
-	2. Login to your server via FTP and create a subdirectory for eXtplorer
-	3. Upload all eXtplorer files from your computer into the subdirectory on the server
-	4. Browse to the URL http://<YOURSERVER>/<SUBDIRECTORY> and login. Remember to immediately change the admin password.
-	5. If you can't change your admin password, this is most likely because the user file is not writable. With your FTP program browse to
-		the eXtplorer directory /config and make the file ".htusers.php" writable (CHMOD 666).
-	
-  Done.
-  
-Installation into Joomla!/Mambo:
--------------------
-	1. Login to Joomla!'s Administration Backend /administrator
-	2. Go to "Components", "Install/Uninstall".
-	3. Browse to the file "com_eXtplorer_xx.tar.gz" on your computer and click on "Upload File & Install".
-	
-  Done.
-  You can now access eXtplorer through "Components" => "eXtplorer"
+5- Learn Joomla!
+	* Read Getting Started with Joomla to find out the basics: http://docs.joomla.org/Getting_Started_with_Joomla!
+	* Before installing, read the beginners guide: http://docs.joomla.org/Beginners
 
+6- What are the limits of Joomla?
+	* Joomla sites can be extended in functionalities with Extensions that you can create (or download) to suite your needs.
+	* There are lots of ready made extensions that you can download and install.
+	* See the Joomla! Extensions Directory (JED): http://extensions.joomla.org
 
-License:
---------------------
-The software is dual-licensed and subject to the 
-	- Mozilla Public License Version 1.1 (the "License") 
-	or 
-	- to the terms of the GNU General Public License Version 2 or later (the "GPL"); 
-	
-You may not use this software except in compliance with one of these Licenses. 
+7- Is it easy to change the layout display?
+	* The layout is controlled by templates that you can edit.
+	* There are lots of ready made templates that you can download.
 
-You may obtain a copy of the Mozilla Public License at http://www.mozilla.org/MPL/.
-You may obtain a copy of the GNU General Public License at http://www.gnu.org/copyleft/gpl.html.
+8- Ready to install Joomla?
+	* See minimum requirements here: http://www.joomla.org/technical-requirements.html
+	* How do you install Joomla! ? - http://docs.joomla.org/Installing_Joomla!
+	* Start your Joomla experience building your site with a local test server.
+	When ready it can be moved to an on-line hosting account of your choice.
+	See the tutorial: http://docs.joomla.org/Tutorial:Joomla_Local_install
 
-Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the
-License for the specific language governing rights and limitations under the License.
+9- Updates are free!
+	* Always use the latest version: http://www.joomla.org/download.html
 
-Alternatively, the software may be used under the terms of the GNU General Public License Version 2 or later (the "GPL"), in
-which case the provisions of the GPL are applicable instead of those above. If you wish to allow use of your version of this software only
-under the terms of the GPL and not to allow others to use your version of this file under the MPL, indicate your decision by
-deleting  the provisions above and replace  them with the notice and other provisions required by the GPL.  If you do not delete
-the provisions above, a recipient may use your version of this software under either the MPL or the GPL.
+10- Where can you get support and help?
+	* FAQ Frequently Asked Questions: http://docs.joomla.org/Category:FAQ
+	* Find the information you need: http://docs.joomla.org/Start_here
+	* Find help and other users: http://www.joomla.org/about-joomla/create-and-share.html
+	* Post questions at our forums: http://forum.joomla.org
+	* Joomla Resources Directory (JRD): http://resources.joomla.org/tos.html
 
+11- Do you already have a Joomla site that's not built with Joomla 3.x ?
+	* What's new in Joomla 3.x - http://www.joomla.org/3
+	* What are the main differences from 2.5 to 3? Table of contents: http://docs.joomla.org/Differences_from_Joomla_2.5_to_Joomla_3.0
+	* How to migrate from 2.5.x to 3.x? Tutorial: http://docs.joomla.org/Migrating_from_Joomla_2.5_to_Joomla_3.0
+	* What are the main differences from 1.5 to 2.5? Table of contents: http://docs.joomla.org/Differences_from_Joomla_1.5_to_Joomla_2.5
+	* How to migrate from 1.5.x to 3.x? Tutorial: http://docs.joomla.org/Migrating_from_Joomla_1.5_to_Joomla_3.0
+	* Convert an existing Web site to Joomla - http://docs.joomla.org/How_to_Convert_an_existing_Web_site_to_a_Joomla!_Web_site
 
-Credits:
---------------------
-eXtplorer is based on QuiXplorer 2.3.1 (available at http://quixplorer.sourceforge.net/).
+12- Do you want to improve Joomla?
+	* How do you request a feature? http://docs.joomla.org/How_do_you_request_a_feature%3F
+	* How do you report a bug? http://docs.joomla.org/Filing_bugs_and_issues
+	* Get Involved: Joomla! is a community developed software. Join the community at http://www.joomla.org
+	* Are you a Developer? http://docs.joomla.org/Developers
+	* Are you a Web designer? http://docs.joomla.org/Web_designers
 
-eXtplorer makes use of the fabulous ExtJS Javascript Library by Jack Slocum, Ext JS, LCC (http://extjs.com/), and that does indeed explain
-the name eXtplorer. 
-Please note that ExtJS is released under the terms of the GNU General Public license version 3 (GPL v3). Because the MPL and
-the GPL are not compliant to each other, you are not allowed to use the ExtJS library in eXtplorer if you decide to use and/or distribute eXtplorer
-under the terms of the MPL.
-
-
-----------------------------------------------------------------------------------------------------
-Facts, you should know of:
-* If you're running in trouble, because you don't have permissions to chmod() or
-  write to files: That's a fact! Switch to FTP mode (or file mode if you're in ftp mode)
-* eXtplorer is a multi-language Script.
-  The Language is automatically picked from the browser (or from the global language in Joomla!/Mambo)
-  
-* eXtplorer comes with an User Management feature. As Joomla!/Mambo have their own framework, User Management isn't
-	available in non-standalone mode.
-* All users must login to access eXtplorer. You can allow visitors to view files by creating a "guest" account with "View" permissions.
-
-* In Joomla!/Mambo the access to this  script is restricted to Super Administrators by default. If you want to change this,
-  edit the file header of "admin.extplorer.php" and change the following:
-  ****
-		if (!$acl->acl_check( 'administration', 'config', 'users', $my->usertype )) {
-			mosRedirect( 'index2.php', _NOT_AUTH );
-		}
-  ****
-  to something different.
-----------------------------------------------------------------------------------------------------
-
-Troubleshooting:
-	* Some browsers (e.g. Konqueror) may want to save a download as index.php.
-	  To solve this, just supply the correct name when saving.
-	* Internet Explorer may behave strangely when downloading files.
-	  If you open the php-file download, the real download window should open.
-	* Mozilla may add the extension 'php' to a file being downloaded.
-	  Save as 'any file (*.*)' and remove the 'php' extension to get the proper name.
-	  (NOTE: for php-files, this extension is correct)
-	* If you are unable to perform certain operations,
-	  try using an FTP-chmod to set the directories to 755 and the files to 644.
-	* If you don't know the full name of a directory on your website,
-	  you can use a php-script containing '<?php echo getcwd(); ?>' to get it.
-	* The Search Function uses PCRE regex syntax to search; though wildcards like * and ?
-	  should work (like with 'ls' on Linux), it may show unexpected behaviour.
-	* User-management may logout unexpectedly or show other strange behaviour.
-	  This is due to a bug in PHP 4.1.2; we would advise you to upgrade to a higher version.
-----------------------------------------------------------------------------------------------------
-Users:
-	* You can easily magage users using the "admin" section of eXtplorer.
-	* Standard, there is only one user: "admin", with password "admin";
-	  you should change this password immediately.
-----------------------------------------------------------------------------------------------------
-Languages:
-	* Users can select one of all available languages on login.
-----------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------
-Developer: 	Soeren Eberhardt-Biermann <info[aat]extplorer.net>
-original author:	the QuiX project
-----------------------------------------------------------------------------------------------------
+Copyright:
+	* Copyright (C) 2005 - 2013 Open Source Matters. All rights reserved.
+	* Credits: http://docs.joomla.org/Joomla_3_Credits
+	* Distributed under the GNU General Public License version 2 or later
+	* See Licenses details at http://docs.joomla.org/Joomla_Licenses
